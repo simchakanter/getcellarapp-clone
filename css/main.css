@@ -1,0 +1,112 @@
+/* Simcha's format reminders */
+/* from @mdo */
+.declaration-order {
+  /* Positioning */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+
+  /* Box-model */
+  display: block;
+  float: right;
+  width: 100px;
+  height: 100px;
+
+  /* Typography */
+  font: normal 13px "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+
+  /* Visual */
+  background-color: #f5f5f5;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+
+  /* Misc */
+  opacity: 1;
+
+  /* and for easy cut and paste... */
+
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  /* Visual */
+  /* Misc */
+
+}
+
+/* Overall styles */
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* Header styles */
+
+header {
+  /* Positioning */
+
+  /* Box-model */
+  width: 100%;
+  height: 848px;
+
+  /* Typography */
+  font-family: "proxima-nova", sans-serif;
+
+  /* Visual */
+  background-image: url('../images/header_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  /* Misc */
+}
+
+header .content {
+  padding-top: 68px;
+}
+
+.logo {
+  /* Positioning */
+
+  /* Box-model */
+  height: 56px;
+
+  /* Typography */
+
+  /* Visual */
+  background-image: url('../images/logo.png');
+  background-repeat: no-repeat;
+
+  /* Misc */
+
+}
+
+.coming-soon {
+  /* Positioning */
+
+  /* Box-model */
+  height: 142px;
+  margin-top: 70px;
+
+  /* Typography */
+
+  /* Visual */
+  background-image: url('../images/coming_soon.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  /* Misc */
+}
