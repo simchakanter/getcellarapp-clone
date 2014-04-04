@@ -40,6 +40,10 @@
 }
 
 /* Overall styles */
+body {
+  font-family: "proxima-nova", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
 
 .content {
   max-width: 1000px;
@@ -76,7 +80,7 @@ header {
 }
 
 header .content {
-  padding-top: 68px;
+  padding-top: 82px;
 }
 
 .logo {
@@ -100,7 +104,8 @@ header .content {
 
   /* Box-model */
   height: 142px;
-  margin-top: 70px;
+  margin-top: 81px;
+  margin-bottom: 40px;
 
   /* Typography */
 
@@ -109,4 +114,42 @@ header .content {
   background-repeat: no-repeat;
   background-position: 50%;
   /* Misc */
+}
+
+header h1 {
+  /* Box-model */
+  margin: 0 auto;
+  text-align: center;
+  width: 600px;
+  margin-bottom: 16px;
+
+  /* Typography */
+  color: #fff;
+  font-size: 3.3em;
+  letter-spacing: .1px;
+  font-weight: 500;
+  line-height: 1.1em;
+}
+
+header h3 {
+  /* Box-model */
+  margin: 0 auto;
+  text-align: center;
+  width: 700px;
+
+  /* Typography */
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.signupForm {
+  margin: 0 auto;
+  width: 780px;
+  text-align: center;
+}
+
+.formContainer {
+  margin: 0 auto;
 }
