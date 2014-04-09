@@ -20,31 +20,116 @@
       </h3>
       <form class="signupForm" action="post">
         <div class="formContainer">
-          <select name="" id=""></select>
-          <input type="text">
-          <input type="submit">
+          <select name="who" id="who">
+            <option value="">I AM A...</option>
+            <option value="wine-enthusiast">Wine Enthusiast</option>
+            <option value="restauraneur">Restauranteur</option>
+            <option value="winery">Winery</option>
+            <option value="sommelier">Sommelier</option>
+          </select>
+          <input type="text" placeholder="EMAIL ADDRESS">
+          <input type="submit" value="SUBSCRIBE">
+          <div id="checkboxclear"></div>
+          <label>
+            <input type="checkbox" value="value" class="left">I am interested in beta testing
+          </label>
+        </div>
+      </form>
+    </div> <!-- end content -->
+  </header>
+  <div id="app-video-section">
+    <div class="content">
+      <div class="feature-headlines left">
+        <h2>Adding &amp; Editing With Ease</h2>
+        <p>
+          Choose the essentials ( vineyard, wine, vintage ) and Cellar pulls down the appellation, maturity, and alcohol content for you. You can customize them at any time too.
+        </p>
+        <h2>Simple, Elegant Inventory</h2>
+        <p>
+          Cellar groups your wine by vineyard, type, and vintage allowing you to easily browse your entire inventory quickly and easily.
+        </p>
+      </div>
+      <div class="video right">
+        <video width="252" height="448" poster="images/feature_one_video_cover.jpg" loop="" style="width: 252px;">
+            <source src="video/adding_bottles.mp4" type="video/mp4">
+            <source src="video/adding_bottles.webm" type="video/webm">
+          </video>
+      </div>
+    </div>
+  </div> <!-- end video section -->
+  <div id="swipe-to-manage-section">
+    <div class="content">
+      <h2>Swipe to Manage</h2>
+      <div class="swipe-features">
+        <div class="feature left">
+          <div class="icon add"></div>
+          <p>
+            Add a bottle or case to your wine cellar in a tap
+          </p>
+        </div>
+        <div class="feature left">
+          <div class="icon remove"></div>
+          <p>
+            Quickly remove bottles from your wine inventory
+          </p>
+        </div>
+        <div class="feature left">
+          <div class="icon enjoy"></div>
+          <p>
+            Enjoy a bottle and share it on Twitter and Facebook
+          </p>
+        </div>
+      </div>
+    </div>
+  </div> <!-- end swipe-to-manage section -->
+  <div id="screenshots-section">
+    <div class="content">
+      <div class="feature-headlines right">
+        <h2>Powerful Searching</h2>
+        <p>
+          Looking for mature wine or a specific appellation? Cellar has an intuitive, but powerful, search feature for tracking down bottles quickly.
+        </p>
+        <h2>Activity Timeline</h2>
+        <p>
+          View your cellar's history as you add, remove, and enjoy bottles from your inventory. Then, share these events on Twitter and Facebook.
+        </p>
+      </div>
+      <div class="left screenshots"></div>
+    </div>
+  </div>
+  <div id="social-section">
+    <div class="content">
+      <div class="social">
+        <a href="#" class="socialButton twitter">Follow us on <span></span></a>
+        <a href="#" class="socialButton facebook">Like us on <span></span></a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="content">
+      <p class="left">
+        Subscribe to our newsletter and stay updated on the release, special offers, and more.
+      </p>
+    <form class="signupForm right" action="post">
+        <div class="formContainer right">
+          <select name="who" id="who">
+            <option value="">I AM A...</option>
+            <option value="wine-enthusiast">Wine Enthusiast</option>
+            <option value="restauraneur">Restauranteur</option>
+            <option value="winery">Winery</option>
+            <option value="sommelier">Sommelier</option>
+          </select>
+          <input type="text" placeholder="EMAIL ADDRESS">
+          <div id="checkboxclear"></div>
+          <span class="checkboxContainer">
+            <label>
+              <input type="checkbox" value="value" class="left">I am interested in beta testing
+            </label>
+          </span>
+          <input type="submit" value="SUBSCRIBE">
         </div>
       </form>
     </div>
-  </header>
-  <div id="hero-unit">
-      
-  </div>
-  <div id="app-video-section">
-      
-  </div>
-  <div id="swipe-to-manage-section">
-      
-  </div>
-  <div id="screenshots-section">
-      
-  </div>
-  <div id="social-section">
-      
-  </div>
-  <footer>
-      
   </footer>
-  </div> <!-- end container -->
 </body>
 </html>

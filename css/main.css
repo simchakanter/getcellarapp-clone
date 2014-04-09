@@ -40,9 +40,10 @@
 }
 
 /* Overall styles */
-body {
+body, input, select, button, td {
   font-family: "proxima-nova", sans-serif;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .content {
@@ -136,6 +137,7 @@ header h3 {
   margin: 0 auto;
   text-align: center;
   width: 700px;
+  margin-bottom: 30px;
 
   /* Typography */
   color: #fff;
@@ -146,10 +148,230 @@ header h3 {
 
 .signupForm {
   margin: 0 auto;
-  width: 780px;
-  text-align: center;
+  width: 760px;
+  /*text-align: center;*/
 }
 
 .formContainer {
+  /*margin: 0 auto;*/
+}
+
+.signupForm select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 17px 75px 17px 17px;
+  color: gray;
+  font-size: 1em;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.signupForm input[type="text"] {
+  padding: 15px 160px 15px 17px;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+.signupForm input[type="submit"] {
+  background-color: #82c1a9;
+  border: none;
+  color: #fff;
+  font-size: 1em;
+  padding: 17px 50px;
+}
+
+#checkboxclear {
+  height: 10px;
+}
+
+.signupForm label {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Feature video area */
+
+#app-video-section {
+  height: 531px;
+}
+
+.feature-headlines {
+  margin-top: 70px;
+  width: 420px;
+}
+
+.feature-headlines h2 {
+  margin-bottom: 30px;
+
+  color: #4b394e;
+  font-size: 2em;
+}
+
+.feature-headlines p {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  color: #777;
+}
+
+.video {
+  background-image: url('../images/feature_one_phone@2x.jpg');
+  background-repeat: no-repeat;
+  background-size: 300px 531px;
+  width: 300px;
+  height: 531px;
+}
+
+.video video {
+  position: relative;
+  left: 25px;
+  top: 42px;
+}
+
+/* Swipe to manage section */
+
+#swipe-to-manage-section {
+  height: 406px;
+  background-color: #4b394e;
+}
+
+#swipe-to-manage-section h2 {
+  color: #82c1a9;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 80px;
+}
+
+.swipe-features {
   margin: 0 auto;
+  width: 840px;
+}
+
+.feature {
+  width: 245px;
+  height: 134px;
+  margin-right: 35px;
+}
+
+.icon {
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.add {
+  background: url('../images/icons.png') no-repeat 0 0;
+  width: 57px;
+  height: 57px;
+}
+
+.remove {
+  background: url('../images/icons.png') no-repeat -58px 0;
+  width: 57px;
+  height: 57px;
+}
+
+.enjoy {
+  background: url('../images/icons.png') no-repeat -116px 0;
+  width: 57px;
+  height: 57px;
+}
+
+#swipe-to-manage-section p {
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+
+/* Screenshots section */
+#screenshots-section {
+  height: 535px;
+  background-color: #fff;
+}
+
+.screenshots {
+  margin-top: 40px;
+  height: 535px;
+  width: 400px;
+  background-image: url('../images/feature_three_phone.png');
+  background-repeat: no-repeat;
+}
+
+/* Social section */
+#social-section {
+  height: 147px;
+  background-color: #ebebeb;
+  padding-top: 100px;
+}
+
+.social {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.socialButton {
+  display: inline-block;
+  /*width: 260px;*/
+  padding: 4px 60px 20px 50px;
+  background-color: #4b394e;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+.twitter {
+  margin-right: 80px;
+}
+
+.socialButton span {
+  position: relative;
+  top: 12px;
+  margin-left: 12px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.twitter span {
+  background: url('../images/icons.png') no-repeat -174px 0;
+}
+
+.facebook span {
+  background: url('../images/icons.png') no-repeat -210px 0;  
+}
+
+/* Footer styles */
+footer {
+  height: 354px;
+  background-color: #82c1a9;
+}
+
+footer p {
+  padding-top: 100px;
+  width: 400px;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+footer .signupForm {
+  margin-top: 100px;
+  width: 600px;
+}
+
+footer .signupForm input[type="submit"] {
+  border: 4px solid #fff;
+  margin-left: 30px;
+  float: right;
+  margin-right: 10px;
+}
+
+.checkboxContainer {
+  position: relative;
+  top: 20px;
+  display: inline;
+  width: 275px;
 }
